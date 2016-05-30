@@ -1,0 +1,100 @@
+body{
+	background-image: url(img/bg.jpg);
+	background-attachment: fixed;
+	font-family: arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+header h1{
+	font-size: 3em;
+	margin: 10px;
+}
+header p{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.8em;
+}
+nav{
+	background-color: white;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: grey;
+}
+
+#welcome{
+	background-color: white;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding: 20px;
+}
+
+#welcome img{
+	width: 100%;
+}
+#welcome h2{
+	text-align: center;
+}
+
+article{
+	background-color: white;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding: 20px;
+	margin-top: 20px;
+}
+article img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+article p:last-child:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+article h3{
+	text-align: center;
+	text-transform: uppercase;
+}
+article h3:before{
+	content: "";
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-top: 1px solid grey;
+	padding: 5px;
+}
+article h3:after{
+	content: "";
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+	margin-top: 20px;
+}
